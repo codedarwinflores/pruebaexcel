@@ -3,9 +3,9 @@
 class Connection
 {
 
-	private $server = "mysql:host=localhost;dbname=db_exportexcel";
-	private $username = "root";
-	private $password = "";
+	private $server = "mysql:host=localhost;dbname=u900482437_excel";
+	private $username = "u900482437_user_excel";
+	private $password = "R=L?ZNq8";
 	private $options  = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,);
 	protected $conn;
 
